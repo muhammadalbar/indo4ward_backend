@@ -9,7 +9,7 @@ const client = new Client({
     database: process.env.PG_DATABASE,
     ssl: true,
 });
-console.log(process.env.PG_USER)
+
 client.connect((err) => {
     if(err){
         throw err
