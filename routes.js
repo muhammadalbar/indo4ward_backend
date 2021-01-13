@@ -1,6 +1,5 @@
 module.exports = (app) => {
     var todo = require('./controller/todos')
-    var weather = require('./controller/weather')
     var fetch = require('node-fetch')
 
     // Get initial api
