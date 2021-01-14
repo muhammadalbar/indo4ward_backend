@@ -28,7 +28,6 @@ exports.createTodo = function(req, res) {
             })
         }
     })
-
 }
 
 exports.deleteTodo = function(req, res) {
